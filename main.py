@@ -21,13 +21,13 @@ def remove_achievement(games, game, achievement):
         print("Achievement not found.")
 
 def main():
-    halo_achievements = {
-        "Halo: Combat Evolved": ["Pillar of Autumn", "Halo", "Truth and Reconciliation"],
-        "Halo 2": ["The Heretic", "Cairo Station", "Outskirts"],
-        "Halo 3": ["Sierra 117", "Crow's Nest", "Tsavo Highway"],
-        # Add more Halo games and achievements here
+    achievements = {
+        "Halo: The Master Chief Collection": ["Pillar of Autumn", "Halo", "Truth and Reconciliation"],
+        "Assassin's Creed Rogue": ["First Voyage", "Into the Abyss", "Tinkerer"],
+        "Portal": ["Portal", "Long Jump", "Fratricide"],
     }
 
+    
     while True:
         print("1. View Achievements")
         print("2. Add Achievement")
