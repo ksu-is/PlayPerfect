@@ -7,7 +7,7 @@
 - [x] Test repository
 
 ### Sprint 2
-- [ ] Update roadmap
+- [x] Update roadmap
 - [ ] Code change 1
 - [ ] Code change 2
 
