@@ -8,9 +8,9 @@
 
 ### Sprint 2
 - [x] Update roadmap
-- [ ] Code change 1
+- [x] Code change 1
 - [ ] Code change 2
 
 ### Sprint 3
 - [ ] Finalize project
-- [ ] Prepare presentation
+- [x] Prepare presentation
