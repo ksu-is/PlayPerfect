@@ -37,15 +37,15 @@ def main():
         choice = int(input("Enter your choice (1/2/3/4): "))
 
         if choice == 1:
-            display_achievements(halo_achievements)
+            display_achievements(achievements)
         elif choice == 2:
-            game = input("Enter the Halo game name: ")
+            game = input("Enter the game name: ")
             achievement = input("Enter the achievement unlocked: ")
-            add_achievement(halo_achievements, game, achievement)
+            add_achievement(achievements, game, achievement)
         elif choice == 3:
-            game = input("Enter the Halo game name: ")
+            game = input("Enter the game name: ")
             achievement = input("Enter the achievement to remove: ")
-            remove_achievement(halo_achievements, game, achievement)
+            remove_achievement(achievements, game, achievement)
         elif choice == 4:
             break
         else:
